@@ -1,7 +1,7 @@
 {
-  "name": "api_data_summary",
-  "version": "1.2.0",
-  "description": "Data Summary Api",
+  "name": "api-zabbix",
+  "version": "1.0.0",
+  "description": "Api Zabbix",
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src",
