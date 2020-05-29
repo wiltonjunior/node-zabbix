@@ -1,8 +1,9 @@
 {
   "name": "api-zabbix",
   "version": "1.0.0",
-  "description": "Api Zabbix",
+  "description": "Application in nodejs that returns data from Zabbix which  is server health and network monitoring software. ",
   "main": "src/index.js",
+  "author": "Wilton Junior",
   "scripts": {
     "start": "node ./src",
     "api": "node ./src"
