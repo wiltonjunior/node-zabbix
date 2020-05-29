@@ -7,7 +7,9 @@
     "email": "wiltonjunior2010@gmail.com",
     "url": "https://github.com/wiltonjunior/"
   },
+  "description": "Application in nodejs that returns data from Zabbix which  is server health and network monitoring software. ",
   "main": "src/index.js",
+  "author": "Wilton Junior",
   "scripts": {
     "dev": "nodemon ./src",
     "start": "node ./src"
