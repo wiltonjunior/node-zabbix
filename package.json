@@ -1,0 +1,29 @@
+{
+  "name": "api_data_summary",
+  "version": "1.2.0",
+  "description": "Data Summary Api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src",
+    "api": "node ./src"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "6.1.0",
+    "express": "4.16.4",
+    "winston": "2.3.1",
+    "winston-logstash": "0.4.0",
+    "zabbix-promise": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "6.0.1",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nodemon": "1.19.1"
+  }
+}
