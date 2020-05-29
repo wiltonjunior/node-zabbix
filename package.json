@@ -2,10 +2,15 @@
   "name": "api-zabbix",
   "version": "1.0.0",
   "description": "Api Zabbix",
+  "author": {
+    "name": "Wilton Junior",
+    "email": "wiltonjunior2010@gmail.com",
+    "url": "https://github.com/wiltonjunior/"
+  },
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./src",
-    "api": "node ./src"
+    "dev": "nodemon ./src",
+    "start": "node ./src"
   },
   "license": "ISC",
   "dependencies": {
