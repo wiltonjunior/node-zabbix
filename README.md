@@ -1,6 +1,6 @@
 # Node Zabbix
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/wiltonjunior/node-zabbix)
+<!-- [![Build Status]()](https://github.com/wiltonjunior/node-zabbix) -->
 
 ### Installation
 
@@ -15,27 +15,28 @@ $ yarn start
 
 Dillinger uses a number of open source projects to work properly:
 
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Zabbix Promise] - query zabbix data
+- [Node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework
+- [Zabbix Promise] - query zabbix data
 
 ### Way of use
 
 Post to port 6000 by sending the following parameters:
 
-* zabbix: Object
-    * Url: String
-    * User: String
-    * Password: String
-    
-* params: Object
-    * Exemplo: ["name"]
+- zabbix: Object
+  - Url: String
+  - User: String
+  - Password: String
+- params: Object
 
-* service: String
-    * Exemplo: "host"
+  - Example: ["name"]
 
+- service: String
+  - Example: "host"
 
+Example:
 
-
-
-
+```sh
+$ curl -X POST http://<API_IP>:<API_PORT>/ -H "Content-Type:application/json" \
+  -d '{"zabbix":{"Url": "ZABBIX_URL","User": "USERNAME","Password": "PASSWORD"},"params":["NAME"],"service": "SERVICE"}'
+```
