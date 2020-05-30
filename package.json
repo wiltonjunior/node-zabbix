@@ -1,21 +1,16 @@
 {
   "name": "api-zabbix",
   "version": "1.0.0",
-  "description": "Api Zabbix",
-  "author": {
-    "name": "Wilton Junior",
-    "email": "wiltonjunior2010@gmail.com",
-    "url": "https://github.com/wiltonjunior/"
-  },
   "description": "Application in nodejs that returns data from Zabbix which  is server health and network monitoring software. ",
-  "main": "src/index.js",
   "author": "Wilton Junior",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon ./src",
     "start": "node ./src"
   },
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "body-parser": "1.18.3",
     "cors": "2.8.5",
     "dotenv": "6.1.0",
